@@ -12,8 +12,9 @@ api = tweepy.API(auth)
 
 tweet_id = "1665029495307350016?s=46&t=nDA5teviE0iP3mUjxm9VzA"
 custom_message = "@elonmusk!"
-
-while True:
+i=0
+while i<10:
     api.update_status(f"{custom_message} \n\n{tweet_id}")
     print("Le tweet a été retweeté avec succès.")
-    time.sleep(60)
+    time.sleep(120)
+    i=+1
