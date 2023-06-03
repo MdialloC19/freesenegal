@@ -16,4 +16,4 @@ custom_message = "@elonmusk!"
 while True:
     api.update_status(f"{custom_message} \n\n{tweet_id}")
     print("Le tweet a été retweeté avec succès.")
-    time.sleep(10)
+    time.sleep(60)

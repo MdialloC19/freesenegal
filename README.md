@@ -20,10 +20,5 @@ Ce script utilise l'API Twitter et la bibliothèque Tweepy pour retweeter automa
 3. Après chaque retweet, le script attend une minute en utilisant `time.sleep10)` avant de retweeter le tweet suivant.
 4. Le processus se répète en boucle jusqu'à ce que le script soit arrêté.
 
-## Limitations
-- Assurez-vous de respecter les règles et les politiques de Twitter lors de l'utilisation de l'API et du retweet automatique.
-- L'utilisation de cette fonctionnalité peut être soumise à des limitations et des restrictions de la part de Twitter.
-- Veillez à ne pas effectuer de demandes excessives à l'API Twitter pour éviter les blocages ou les suspensions de compte.
-
 ## Auteur
 MosikasikaC19
